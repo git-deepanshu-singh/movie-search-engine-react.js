@@ -6,3 +6,10 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Added media query to reduce padding on smaller screens */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+}
